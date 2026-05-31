@@ -21,7 +21,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 if str(REPO_ROOT) not in sys.path:
     sys.path.insert(0, str(REPO_ROOT))
 
-from blind_watermark import att
+import att
 from watermark import SimpleWatermarkDemo, bits_to_text, save_bgr, text_to_bits
 
 
